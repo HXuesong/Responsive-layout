@@ -1,0 +1,158 @@
+
+/* 样式重置 */
+*
+{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #333;
+    list-style-type: none;
+}
+
+/* 引入字体 */
+@font-face {
+    font-family: 'HanYiTiaoTiao'; 
+    src: url('../font/HanYiTiaoTiao.eot');
+    src:
+      /* url('../font/HanYiTiaoTiao.woff') format('woff'), */
+      url('../font/HanYiTiaoTiao.ttf') format('truetype'),
+      url('../font/HanYiTiaoTiao.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.top-img
+{
+    width: 10rem;
+    height: 29vh;
+    border-bottom: 0.04rem solid #073b79;
+}
+
+.lower-part
+{
+    position: relative;
+    width: 10rem;
+    height: 70.8vh;
+    background-color: #c2daff;
+}
+
+.box
+{
+    position: absolute;
+    margin-top: 3.37vh;
+    left: 50%;
+    margin-left: -4.58rem;
+    width: 9.15rem;
+    height: 8.05rem;
+    background-color: #fbfdff;
+    border: 0.02rem solid #073b79;
+    border-radius: 0.14rem;
+}
+
+.aricle
+{
+    position: absolute;
+    margin-top: 3.82vh;
+    left: 50%;
+    margin-left: -3.8rem;
+    width: 7.6rem;
+    height: 5.7rem;
+}
+
+.aricle li
+{
+    width: 7.6rem;
+    height: 0.95rem;
+    border-bottom: 0.03rem solid #cad6e4;
+}
+
+.major
+{
+    display: inline-block;
+    width: 2.2rem;
+    line-height: 0.95rem;
+    font-size: 0.44rem;
+    text-align: justify;
+    text-align-last: justify;
+    text-justify: inter-ideograph;
+    color: #073b79;
+    font-family: 'HanYiTiaoTiao';
+}
+
+/* 另一种两段文字对齐方式，但右侧元素会被挤到下面去 */
+/* .major::after
+{
+    display: inline-block; 
+    content: ''; 
+    padding-left: 100%; 
+} */
+
+.info, .info1
+{
+    display: inline-block;
+    margin-left: 0.04rem;
+    line-height: 0.95rem;
+    font-size: 0.38rem;
+    text-align: center;
+    color: #f8822b;
+}
+
+.info1
+{
+    margin-left: 0.38rem;
+}
+
+.smallClass, .smallClass1
+{
+    display: inline-block;
+    margin-left: 2.2rem;
+    line-height: 0.95rem;
+    font-size: 0.44rem;
+    text-align: center;
+    font-family: 'HanYiTiaoTiao';
+    color: #073b79;
+}
+
+.smallClass1
+{
+    margin-left: 0;
+}
+
+.bottle
+{
+    position: absolute;
+    left: 0.15rem;
+    bottom: 1.12vh;
+    width: 0.69rem;
+    height: 0.95rem;
+}
+
+.line
+{
+    position: absolute;
+    bottom: 3.45vh;
+    left: 0.76rem;
+    width: 4.51rem;
+    height: 0;
+    border-top: 0.03rem solid #cad6e4;
+}
+
+.pencil
+{
+    position: absolute;
+    right: -0.13rem;
+    bottom: 1.72vh;
+    width: 3.81rem;
+    height: 1.91rem;
+}
+
+.redRock
+{
+    position: absolute;
+    left: 50%;
+    bottom: 1.95vh;
+    margin-left: -1.3rem;
+    font-size: 0.3rem;
+    color: #3768b5;
+}

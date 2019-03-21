@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../public/css/index.css">
+    <title>查询</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- 顶部图片 -->
+        <img src="../public/imgs/top_img.jpg" alt="" class="top-img">
+
+        <!-- 下部容器 -->
+        <div class="lower-part">
+
+            <!-- 内容框 -->
+            <div class="box">
+
+                <!-- 正文 -->
+                <div class="aricle">
+
+                    <!-- 信息 -->
+                    <ul>
+
+                        <!-- 姓名 -->
+                        <li>
+                            <span class="major">姓 名：</span>
+                            <span class="info">杨均有</span>
+                        </li>
+
+                        <!-- 准考证号 -->
+                        <li>
+                            <span class="major">准考证号：</span>
+                            <span class="info">123846794161</span>
+                        </li>
+
+                        <!-- 总分 -->
+                        <li>
+                            <span class="major">总 分：</span>
+                            <span class="info">457</span>
+                        </li>
+
+                        <!-- 单科 -->
+                        <li>
+                            <span class="major">单 科：</span>
+                            <span class="smallClass1">听力</span>
+                            <span class="info1">134</span>
+                        </li>
+
+                        <!-- 阅读 -->
+                        <li>
+                            <span class="smallClass">阅读</span>
+                            <span class="info1">134</span>
+                        </li>
+
+                        <!-- 写作和翻译 -->
+                        <li>
+                            <span class="smallClass">写作和翻译</span>
+                            <span class="info1">134</span>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- 瓶子 -->
+                <img src="../public/imgs/bottle.gif" alt="" class="bottle">
+
+                <!-- 分割线 -->
+                <div class="line"></div>
+
+                <!-- 画笔 -->
+                <img src="../public/imgs/pencil.png" alt="" class="pencil">
+
+            </div>
+
+        </div>
+
+        <p class="redRock">© 红岩网校工作站</p>
+
+    </div>
+
+    <script>
+
+        //动态设置viewport的scale
+        var scale = 1 / devicePixelRatio;
+        document.querySelector('meta[name="viewport"]').setAttribute('content', 'initial-scale=' + scale + ', maximum-scale=' + scale + ', minimum-scale=' + scale + ', user-scalable=no');
+
+        //动态计算html的font-size
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 10 + 'px';
+
+    </script>
+
+</body>
+
+</html>
